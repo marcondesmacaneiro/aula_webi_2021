@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <h1>Formulário</h1>
+        <form>
+            <table class="tabela">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nome">Nome Completo:</label> </td>
+                        <td> <input name="nome" class="form" id="nome" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="cpf">CPF:</label> </td>
+                        <td> <input name="cpf" class="form" id="cpf" type="text"> </td>
+                    <tr>
+                        <td> <label for="estado">Estado:</label> </td>
+                        <td> <input name="estado" class="form" id="estado" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="cidade">Cidade:</label> </td>
+                        <td> <input name="cidade" class="form" id="cidade" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="bairro">Bairro:</label> </td>
+                        <td> <input name="bairro" class="form" id="bairro" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="numero">Número:</label> </td>
+                        <td> <input name="numero" class="form" id="numero" type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="complement0">Complemento:</label> </td>
+                        <td> <input name="complement0" class="form" id="complement0" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="select">Sexo:</label></td>
+                        <td><select name="sexo" class="form" id="select">
+                                <option value="M">Masculino</option>
+                                <option value="F">Feminino</option>
+                                <option value="O">Outro</option>
+                            </select>
+                        </td>
+                    <tr>
+                        <td> <label for="data_nasc">Data de Nascimento:</label> </td>
+                        <td> <input name="data_nasc" class="form" id="data_nasc" type="date"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="n_filhos">Número de Filhos:</label> </td>
+                        <td> <input name="n_filhos" class="form" id="n_filhos" type="number"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="celular">Número do Celular:</label> </td>
+                        <td> <input name="celular" class="form" id="celular" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="cor_preferida">Cor Preferida:</label> </td>
+                        <td> <input name="cor_preferida" class="form" id="cor_preferida" type="text"> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea class="form" placeholder="Escreva uma mensagem..."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <button type="submit" class="enviar">Enviar</button></td>
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <a href="index.html"><button class="enviar">Voltar</button></a> 
+    </div>
+</body>
+
+</html>

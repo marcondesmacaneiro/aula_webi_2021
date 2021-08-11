@@ -1,0 +1,69 @@
+@font-face{
+    font-family: mandinga;
+    src:url('MANDINGA.woff');
+}
+*{
+    font-family: mandinga;
+    color: aliceblue;
+}
+
+body{
+    margin: 20px;
+    text-align: center;
+    background-color: #6642aa;
+}
+
+.pagcompleta{
+    margin: auto;
+    margin-bottom: 100px;
+    position: relative;
+    top: 40px;
+    padding: 20px 20px;
+    background-color: #141414;
+}
+h1,h2{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: mandinga;
+}
+p,ul{
+    font-family: mandinga;
+    font-size: 25px;
+    color: #ffffff;
+}
+.contato p{
+    
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 20px;   
+}
+.contato a{
+    text-decoration: none;
+    color:#6642aa;
+}
+.botao{
+    background: none;
+    border: 2px solid #6642aa;
+    color: rgb(235, 250, 250)   ;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0 ;
+}
+.botao:hover{
+    background-color: #6642aa;
+    transition-duration: 0.4s;
+}
+.infocontato{
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #141414;
+    padding: 50px;
+
+}
+
