@@ -6,9 +6,9 @@
     font-family: mandinga;
     color: aliceblue;
 }
-img{
-    width: 500px;
-    height: 500px;
+.img1{
+    width: 350px;
+    height: 400px;
 }
 body{
     margin: 20px;
@@ -61,4 +61,15 @@ p,ul{
     padding: 50px;
     border-radius: 50px;
 }
+.pato{
+    margin-top: 200px;
+}
 
+.pato:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.pato2{
+    margin-top: 300px;
+}
