@@ -1,13 +1,13 @@
-.cadastro{
+/* .cadastro{
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
-}
-.field{
+} */
+.index{
     width: 100%;
     margin: 15px 0;
 }
-.field label{
+.index label{
     padding-left: 10px;
     font-size: 1.1em;
     display: block;
@@ -33,14 +33,25 @@ input[type=submit]{
     text-align: center;
 } 
 a{
+    text-decoration: none ;
+}
+ a.link {
     display: block; 
     background-color: #ccc; 
-    height: 25px;
+    height: 35px;
     border: none;
     cursor: pointer;
     width: 100px;
     text-align: center;
+    margin-top: 25px;
 }
- a.link {
-    text-decoration: none;
-} 
+
+.contato{
+    font-size: larger;
+    font-style: italic;
+}
+h1{
+    font-size: larger;
+    font-style: italic;
+    color: blue;
+}
