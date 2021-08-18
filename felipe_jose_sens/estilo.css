@@ -1,31 +1,92 @@
-div#primeiro {
+header#titulo {
 
-
-
-
-}
-
-
-div#segundo {
+margin-top: 10px;
+text-align: center;
+padding-left: 300px;
 
 
 }
 
-div#terceiro {
+header#tome {
 
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 600px;
+    
+    
+    }
 
+    header#some {
 
+        margin-top: 10px;
+        text-align: center;
+        padding-left: 670px;
+        
+        
+        }
+
+        header#come {
+
+            margin-top: 10px;
+            text-align: center;
+            padding-left: 670px;
+            
+            
+            }
+
+        #forma {
+
+            text-align: center;
+            -webkit-text-size-adjust: auto;
+        }
+    
+#dados {
+
+        text-align: center;
+}
+
+#dados div {
+
+    
+    
+}
+
+#teste {
+
+text-align: center;
 
 }
 
-nav#teste {
+#centrado {
 
-
-
-}
-
-body {
-
-
+margin-left: 230px;
 
 }
+#reta {
+    text-align: center;
+}
+
+#retaum {
+
+list-style: none;
+display: inline-block;
+padding: 10px;
+}
+
+#retadois {
+
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    }
+
+    #retatres {
+
+        list-style: none;
+        display: inline-block;
+        padding: 40px;
+        } 
+
+        li {
+            list-style-type: none;
+          }
