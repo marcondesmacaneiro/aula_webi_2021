@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="css.css"/>
+</head>
+<body>
+    <header class="menuprincipal">
+    <br>
+    <nav class="navegacao">
+        <ul class="menutop">
+            <li>
+                <a href="index.html">Pagina Inicial</a>
+            </li>
+            <li>
+                <a href="formulario.html">Formulario</a>
+            </li>
+            <li>
+                <a href="Saiba_mais.html">Saiba mais</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <br>
+    <br>
+        <form>
+            <div class="divisor">
+                <fieldset class="titu_frm">
+                <h1 class="titu_frm">Cadastro do cliente</h1>
+                </fieldset>
+            </div>
+                <fieldset class="formzin">
+                    <p><strong>Dados do cliente</strong></p>
+                    <br>
+                <label for="NomeComp">Nome : </label>
+                <input type="text" class="nome" id="NomeComp" name="nome" required="required"
+                       placeholder="Informe seu nome" maxlength="60" autofocus="">
+                <br>
+                <label for="email">E-mail: </label>
+                <input type="e-mail" class="email" id="email" name="email" required="required"
+                       placeholder="Digite seu e-mail" maxlength="40">
+                <br><br>
+                <input type="checkbox" id="boletins" name="boletins" value="boletins">
+                <label for="boletins" class="boletim">Quero receber boletins</label>
+                <br><br>
+                <input type="submit" class="salvar" id="enviar" name="enviar" value="Salvar">
+                </fieldset>
+        </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuprincipal {
+    background: lightpink;
+    display: table;
+    width: 100%;
+}
+
+.menuprincipal ul {
+    list-style: none;
+}
+
+.menuprincipal ul li {
+    display: inline;
+}
+
+.menuprincipal ul li a {
+    font: 16px Verdana, Arial, Tahoma, sans-serif;
+    color: #000;
+    background: lightpink;
+    text-decoration: none;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 3px;
+}
+
+.menuprincipal ul li a:hover {
+    color: lightpink;
+    background: #000;
+}
+
+.titu_frm {
+    text-align: left;
+    padding: 5px 10px;
+    left:50%;
+    top:50%;
+    width:100%;
+    font-size: 18px;
+    font-family: 'Georgia';
+    color: #000;
+    background: lightpink;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.formzin {
+    font-family: 'Georgia';
+    padding: 5px 10px;
+    left:50%;
+    top:50%;
+    width:100%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.email, .nome {
+    background: navajowhite;
+    margin-left: 15%;
+    border-style: dashed;
+    border-color: deeppink;
+}
+
+.nome {
+    width: 300px;
+}
+
+.email {
+    width: 150px;
+}
+
+.salvar {
+    margin-left: 50%;
+    padding: 5px 10px;
+    color: #000;
+    background: lightpink;
+    border-radius: 5px;
+}
+
+.salvar:hover {
+    color: lightpink;
+    background: #000;
+}
