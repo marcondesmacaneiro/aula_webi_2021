@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <style>
+        .cliente {
+    background-color: rgb(121, 123, 160);
+    height: 20px;
+}
+ 
+.textocliente {
+    vertical-align: center;
+    color: white;
+    padding: 4px;
+}
+ 
+div {
+    width: 500px;
+    border: 1px solid black;
+}
+ 
+#nome {
+    border: 1px dashed red;
+    background-color: yellow;
+    width: 400px;
+}
+ 
+#email {
+    margin-top: 6px;
+    border: 1px dashed red;
+    background-color: yellow;
+}
+
+.salvar {
+    text-align: center;
+    background-color: rgb(77, 77, 255);
+}
+
+</style>
+</head>
+<body>
+    
+    <form action="envia.php">
+        <div class="cliente">
+            <span class="textocliente">Cadastro</span>
+            <img src="Tt_tabelas_transicao.gif" alt="">
+        </div>
+ 
+        <div class="principal">
+ 
+            <p>Dados do Cliente</p>
+            <br>
+            <label for="nome">Nome :</label>
+            <input type="text" name="nome" id="nome">
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <input type="checkbox" name="receber" id="receber">
+            <label for="receber">Quero receber boletins</label>
+            <br>
+            <button class="salvar">Salvar</button>
+
+        </div>
+    </form>
+ 
+</body>
+</html>
