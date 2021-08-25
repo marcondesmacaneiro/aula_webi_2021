@@ -1,0 +1,57 @@
+/* .cadastro{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+} */
+.index{
+    width: 100%;
+    margin: 15px 0;
+}
+.index label{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+} 
+a{
+    text-decoration: none ;
+}
+ a.link {
+    display: block; 
+    background-color: #ccc; 
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contato{
+    font-size: larger;
+    font-style: italic;
+}
+h1{
+    font-size: larger;
+    font-style: italic;
+    color: blue;
+}
