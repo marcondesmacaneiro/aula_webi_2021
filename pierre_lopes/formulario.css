@@ -23,6 +23,7 @@ body{
     background-color: #141414;
     padding: 50px;
     height: 850px;
+    border-radius: 50px;
 }
 h1{
     float: left;
@@ -66,7 +67,7 @@ h1{
     margin: 0px;
 }
 option{
-    color: black;   
+    color: #141414;   
 }   
 #select{
     width: 250px;
@@ -74,4 +75,7 @@ option{
 textarea{
     width : 430px !important;
     height: 150px;
+}
+input,select,button,textarea{
+    border-radius: 10px;
 }
