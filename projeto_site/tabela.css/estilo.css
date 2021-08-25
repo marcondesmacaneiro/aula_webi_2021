@@ -1,0 +1,52 @@
+
+input#nome {
+
+    border-style: dotted; 
+    border-color: red;
+    background-color: yellow;
+    width: 285px;
+    position: relative;
+    padding-left: 50px;
+    
+
+}
+
+input#email {
+
+    border-style: dotted; 
+    border-color: red;
+    background-color: yellow;
+}
+
+button#botao {
+
+    color: darkblue;
+}
+
+tr#teste {
+
+    
+    width: 100%;
+    
+}
+
+td#botaum {
+
+    padding-right: 350px;
+}
+
+th#fundo {
+
+    background-image: url("logoseparador.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+    
+    
+}    
+
+h3#textocad {
+
+    text-align: left;
+}
