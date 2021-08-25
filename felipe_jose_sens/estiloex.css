@@ -1,0 +1,39 @@
+input#nome {
+
+    background-color: yellow;
+}
+
+input#email {
+
+    background-color: yellow;
+}
+
+input#nome {
+
+    border-style: dotted; 
+    border-color: red;
+    background-color: yellow;
+}
+
+input#email {
+
+    border-style: dotted; 
+    border-color: red;
+    background-color: yellow;
+}
+
+button#botao {
+
+    color: darkblue;
+}
+
+tr#teste {
+
+    background-image: url("logoseparador.gif");
+    width: 100%;
+}
+
+td#botaum {
+
+    padding-right: 250px;
+}
