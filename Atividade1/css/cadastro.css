@@ -1,0 +1,51 @@
+.A{
+    background-color: rgba(85, 108, 235, 0.74);
+    border: solid black 2px;
+
+}
+
+.B{
+    border: solid black 2px;
+    margin-top: 0%;
+    
+}
+
+body{
+    padding-right: 60%;
+}
+
+.botao{
+    margin-left: 45%;
+    margin-top: 5%;
+    color: blue;
+    margin-bottom: 1%;
+    border-radius: 7px;
+}
+
+p{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.in{
+    margin-left: 10%;
+}
+
+.in2{
+    margin-left: 9.5%;
+}
+
+h3{
+    margin-left: 2%;
+}
+
+.G{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+input{
+    background-color: yellow;
+    border-color: orange;
+    border-style: dashed;
+}
