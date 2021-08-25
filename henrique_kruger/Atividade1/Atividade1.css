@@ -1,12 +1,12 @@
 .div1 {
-    width: 50%;
+    width: 400px;
     height: 20px;
     border: 1px solid black;
     padding: 4px;
     background-color: gray;
 }
 .div2 {
-    width: 50%;
+    width: 400px;
     height: 150px;
     border: 1px solid black;
     padding: 4px;
@@ -24,4 +24,7 @@
 }
 .campo {
     background-color: yellow;
+    border-style: dotted;
+    border-color: red;
+    margin: 3px;
 }
