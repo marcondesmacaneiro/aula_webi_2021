@@ -1,0 +1,46 @@
+
+.formulario{
+    background:none ;
+    width: 100%;
+}
+
+.segundo{
+    padding-top: 2%;    
+}
+
+.formulario #titulo{
+    text-align: left;
+    background-image: url(Tt_tabelas_transicao.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;  
+}
+
+.formulario #nome{
+  width: 70%;
+  border-style: dotted; 
+  border-color: red;
+  background-color: yellow;
+  margin-left: 4%; 
+}
+
+.formulario #email{
+    width: 50%;
+    border-style: dotted; 
+    border-color: red;
+    background-color: yellow;
+    margin-left: 5%; 
+}
+
+.formulario #boletin{
+    margin-left: 10%;
+}
+
+.formulario #enviar{
+    text-align: center;
+  }
+
+#enviar button{
+    border-radius: 6px; 
+    color: rgb(13, 9, 255); 
+  }
