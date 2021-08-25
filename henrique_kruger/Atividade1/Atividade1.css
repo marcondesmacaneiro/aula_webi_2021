@@ -1,0 +1,27 @@
+.div1 {
+    width: 50%;
+    height: 20px;
+    border: 1px solid black;
+    padding: 4px;
+    background-color: gray;
+}
+.div2 {
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+    padding: 4px;
+}   
+#div3 {
+    text-align: center;
+}
+
+#button {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    color: blue;
+}
+.campo {
+    background-color: yellow;
+}
