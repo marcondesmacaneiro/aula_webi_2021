@@ -1,0 +1,29 @@
+ *{
+    margin:0;
+    padding:0;
+}
+
+#cadastro {
+    background: orange;
+    display: table;
+    width: 100%;
+} 
+
+#cadastro ul {list-style:none;}
+
+#cadastro ul li {display:inline;}
+
+#cadastro ul li a {
+    font: 13px verdani, arial, tahoma;
+    color: #000;    
+    background:orange;
+    text-decoration:none;
+    float: left;
+    padding:5px 10px;
+    margin-left: 1px;
+}
+
+#cadastro ul li a:hover {
+    color:orange;
+    background: #000;
+}
