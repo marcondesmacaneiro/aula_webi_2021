@@ -1,26 +1,25 @@
-body {
-    background: #FFF1D6 url(images/noise_1.png);
-    /*primeira MAC-OS, segunda Windows, as duas em caso de não existir as primeiras fontes*/
+* {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    /*padrão para usar 160% da altura da fonte no computador do usuário*/
     line-height: 1.6;
 }
 
+body {
+    background: #FFF1D6 url(images/noise_1.png);
+}
+
 .container {
-    /*superior e inferior como 0, a laterais automática para centralizar*/
     margin: 0 auto;
-    /*ideal para larguras de tela de até 1024px*/
     width: 960px;
 }
 
 h1 a {
     color: #7E9F19;
-    text-decoration: none;
 }
 
 h1 a:hover {
-    background-color: #7E9F19;
-    color: #FFF;
+    background-color: #8f9b6d;
+    color: rgb(0, 0, 0);
+    font-style: italic;
 }
 
 .places {
@@ -71,11 +70,8 @@ h1 a:hover {
     padding: 2px;
 }
 
-.clear {
-    clear: both;
-}
-
 .rodape {
     font-size: 12px;
     text-align: center;
+    clear: both;
 }
