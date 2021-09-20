@@ -1,0 +1,78 @@
+body {
+	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #ffffff;
+    background-color: rgba(8, 8, 20, 0.616)
+}
+
+h1,h2 {
+	font-family: 'Anton', sans-serif;;
+}
+
+h1 {
+	color: white;
+    background: rgba(32, 23, 102, 0.692);
+    background: linear-gradient(90deg, rgba(8,1,64,1) 16%, rgba(51,35,171,1) 48%, rgba(81,184,247,1) 100%);
+	padding: 5px;	
+}
+
+h2 {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: rgba(8,1,64,1);
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
+
+section{
+	background-color: rgba(51,35,171,1);
+	padding-left: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+label:after {
+	content: ":";
+}
+
+a {
+	text-decoration:none;
+	color: rgb(114, 214, 245);
+}
+
+
+a:hover {
+	text-decoration:none;
+	color: rgb(4, 72, 77);
+}
+
+
+.lateral {
+	padding: 5px;
+}
+
+.url, .email {
+	display: block;
+}
+
+.foto {
+	float: right;
+	margin-right: 20%;
+    width: 250px;
+}
+
+footer {
+	border-top: 1px dashed #aaa;
+	padding: 5px;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+footer li {
+	list-style-type: none;
+	margin-top: 3px;
+}
+
