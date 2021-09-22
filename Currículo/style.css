@@ -1,32 +1,67 @@
 body {
-	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font: 14px , sans-serif;
 	color: #ffffff;
-    background-color: rgba(8, 8, 20, 0.616)
+    background: rgb(170,177,217);
+background: radial-gradient(circle, rgba(170,177,217,1) 5%, rgb(33, 1, 46) 70%);
+	padding-left: 500px;
+	margin-top: 70px;
 }
 
 h1,h2 {
-	font-family: 'Anton', sans-serif;;
+	font-family: 'Anton', sans-serif;
 }
 
-h1 {
-	color: white;
-    background: rgba(32, 23, 102, 0.692);
-    background: linear-gradient(90deg, rgba(8,1,64,1) 16%, rgba(51,35,171,1) 48%, rgba(81,184,247,1) 100%);
-	padding: 5px;	
+
+
+h1{
+    font-size: 1.4em;
+    text-align: center;
+    background: rgb(0,0,0);
+	
+    color: white;
+    left: -10px;
+    padding: 10px 0;
+    position: relative;
+    width: 1020px;
+	top:3px;
+	
+    
+}
+h1::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    top: -10px;
+    border-color:transparent #b9b6b6#b9b6b6 transparent;
+    border-style:solid;
+    border-width:5px;
+}
+h1::after{
+    content: '';
+    right: 0;
+    position: absolute;
+    top: -10px;
+    border-color:transparent transparent #b9b6b6#b9b6b6;
+    border-style:solid;
+    border-width:5px;
 }
 
 h2 {
 	border-top: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	background-color: rgba(8,1,64,1);
+	background-color: rgb(0, 0, 0);
 	padding-left: 5px;
 	margin: 0 0 0 -15px;
 	font-weight: normal;
+	width: 810px;
 }
 
 section{
-	background-color: rgba(51,35,171,1);
+	background: rgb(0,0,0);
+    background: linear-gradient(193deg, rgba(0,0,0,1) 20%, rgba(98,68,112,1) 48%, rgba(221,234,235,1) 100%);
 	padding-left: 15px;
+	width: 800px;
+	margin-left: 5px;
 }
 
 label {
@@ -40,13 +75,13 @@ label:after {
 
 a {
 	text-decoration:none;
-	color: rgb(114, 214, 245);
+	color: rgb(160, 12, 160);
 }
 
 
 a:hover {
 	text-decoration:none;
-	color: rgb(4, 72, 77);
+	color: rgb(0, 0, 0);
 }
 
 
@@ -60,19 +95,40 @@ a:hover {
 
 .foto {
 	float: right;
-	margin-right: 20%;
-    width: 250px;
+	border-radius: 30px;
+    width: 165px;
+	border: solid black 3px;
 }
 
+
 footer {
-	border-top: 1px dashed #aaa;
+	border-top: 5px  rgb(0, 0, 0);
 	padding: 5px;
-	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	font: 75% 'Anton', sans-serif;
 	
 }
 
 footer li {
 	list-style-type: none;
 	margin-top: 3px;
+}
+
+div{
+	 
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 26%, rgba(98,68,112,1) 69%, rgba(221,234,235,1) 100%);
+	width: 1000px;
+	
+	
+}
+
+.bb{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border:solid white 1px;
+}
+
+.cc{
+	border: solid white 1px;
 }
 
