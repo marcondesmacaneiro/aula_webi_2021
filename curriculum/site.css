@@ -1,0 +1,90 @@
+body {
+    background: #dedede;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    margin: 0 auto;
+    width: 960px;
+}
+
+h1{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(153,153,173,1) 40%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h1:hover {
+    color: #FFF;
+}
+
+section {
+    float: left;
+    width: 660px;
+}
+
+aside {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+aside h3 {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+article{
+    background-color: #FFF;
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    clear: both;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+article h2 {
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+article a {
+    color: #2C88A7;
+    font-weight: bold;
+}
+
+article img {
+    border: 1px solid black;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+}
+
+.redes {
+    padding-top: 7px;  
+}
